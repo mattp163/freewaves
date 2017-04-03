@@ -1,0 +1,58 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.playlist1{
+margin-top: 54px;
+
+}
+
+.playlist2{
+margin-top: 10px;
+
+}
+
+img.img-fluid{
+  max-width: 100%;
+  height: auto;
+
+  transition: .3s ease;
+
+
+}
+
+   img.img-fluid:hover
+{
+        box-shadow:
+                2px 2px #53a7ea,
+                3px 3px #53a7ea,
+                4px 4px #53a7ea,
+                5px 5px #53a7ea;
+
+                -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.009);
+        transform: scale(1.009);
+
+}
+
+.mr{
+  margin-top: 7px;
+}
+
+.logo{
+  width: 349px;
+  margin: 0 auto;
+  z-index: 3;
+  float: none;
+  margin-top: 16px;
+}
+
+@media (max-width: 992px) {
+    h2.title-small {
+        margin-top: 10px;
+    }
+}
